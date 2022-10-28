@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+<body>
+    <a-scene background="color: #000000">
+        <a-entity position="0 5 15">
+            <a-camera></a-camera>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="0 4.9 2.5" color="white" radius="2"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="0 5 2.5" color="blue" radius="2"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-cylinder position="-0.8 2.8 3" color="red" radius="0.6"></a-cylinder>
+        </a-entity>
+        <a-entity>
+            <a-cylinder position="0.8 2.8 3" color="red" radius="0.6"></a-cylinder>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="-0.5 8.2 3.5" color="white" radius="0.3"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="0.5 8.2 3.5" color="white" radius="0.3"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="0 7.5 3.5" color="red" radius="0.3"></a-sphere>
+        </a-entity>
+        <a-entity animation="property:rotation; to:0 -3 0; easing:linear; loop:true; dur:1000">
+            <a-sphere position="0.5 8.2 3.8" color="black" radius="0.1"></a-sphere>
+        </a-entity>
+        <a-entity animation="property:rotation; to:0 3 0; easing:linear; loop:true; dur:1000">
+            <a-sphere position="-0.5 8.2 3.8" color="black" radius="0.1"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="0 8 2" color="blue" radius="1.5"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="-4 6 2.9" color="white" radius="0.5"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-sphere position="4 6 2.9" color="white" radius="0.5"></a-sphere>
+        </a-entity>
+        <a-entity>
+            <a-cylinder position="2 6 3" color="blue" radius="0.6" scale="3 0.8 1"></a-cylinder>
+        </a-entity>
+        <a-entity>
+            <a-cylinder position="-2 6 3" color="blue" radius="0.6" scale="3 0.8 1"></a-cylinder>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
